@@ -5,7 +5,7 @@ permalink: /publication/zheng2025hgnan
 date: 2025-03-01
 venue: "Working Paper (Under Review)"
 authors: "**Xin Zheng**, Shihan Feng, Wang Ren, Can Chen, Chudi Zhong"
-paperurl: ""
+paperurl: "https://openreview.net/forum?id=78ALuvE1Uy"
 citation: "Zheng, X., Feng, S., Ren, W., Chen, C., & Zhong, C. (2025). *Interpretable Hypergraph Neural Additive Networks*. Working paper, manuscript under review."
 ---
 We introduce **Hypergraph Neural Additive Networks (HGNAN)**, a new interpretable model that combines **neural additive functions** with **hypergraph structures** to learn high-order gene-pathway interactions.  
