@@ -5,7 +5,7 @@ permalink: /publication/huang2025orlm
 date: 2025-01-01
 venue: "Operations Research"
 authors: "Chenyu Huang, Zhengyang Tang, Shixi Hu, Ruoqing Jiang, **Xin Zheng**, Dongdong Ge, Benyou Wang, Zizhuo Wang"
-paperurl: "https://pubsonline.informs.org/journal/opre"
+paperurl: "[https://pubsonline.informs.org/journal/opre](https://arxiv.org/abs/2405.17743)"
 citation: "Huang, C., Tang, Z., Hu, S., Jiang, R., Zheng, X., Ge, D., Wang, B., & Wang, Z. (2025). *ORLM: A customizable framework in training large models for automated optimization modeling*. Operations Research, INFORMS."
 ---
 This paper presents **ORLM**, a customizable large-model training framework that automates mathematical optimization modeling.  
