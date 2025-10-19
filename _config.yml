@@ -219,7 +219,7 @@ collections:
     output    : false   # <<< 关闭生成
     permalink : /:collection/:path/
   publications:
-    output    : false   # <<< 关闭生成
+    output    : true  
     permalink : /:collection/:path/
   portfolio:
     output    : false   # <<< 关闭生成
