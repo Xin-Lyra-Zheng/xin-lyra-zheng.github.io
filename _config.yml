@@ -2,33 +2,32 @@
 # Site basics
 # =========================
 locale          : "en-US"
-site_theme      : "default"   # "default" | "air"
+site_theme      : "default"
 title           : "Xin Zheng — Academic Homepage"
 title_separator : "-"
 name            : &name "Xin Zheng"
 description     : &description "Academic portfolio of Xin Zheng (Economics & Computation, Duke University)"
-url             : "https://xin-lyra-zheng.github.io"   # 先用 GitHub Pages 域名；若以后绑定自定义域名，改为 https://<your-domain>
-baseurl         : ""                                   # 用户主页必须为空
+url             : "https://xin-lyra-zheng.github.io"
+baseurl         : ""
 repository      : "xin-lyra-zheng/xin-lyra-zheng.github.io"
 
 # =========================
 # Author (left sidebar)
 # =========================
 author:
-  # Bio
-  avatar     : "/images/xin-profile.png"        # 放在 /images/ 或根目录，保持路径一致
+  avatar     : "/images/xin-profile.png"
   name       : "Xin Zheng"
-  pronouns   :                      # 留空，若需要再填，例如 "she/her" 或 "he/him"
+  pronouns   :
   bio        : "M.S. in Economics & Computation @ Duke University. Research: Interpretable ML, Hypergraph Learning, Decision Trees + GAMs, AI alignment/fairness."
   location   : "Durham, NC"
   employer   : "Duke University"
   uri        :
   email      : "xin.zheng@duke.edu"
 
-  # Academic IDs (留空表示不显示)
+  # Academic IDs
   academia      :
   arxiv         :
-  googlescholar :https://scholar.google.com/citations?hl=zh-CN&user=FQUBnVQovvwC                   # 建议填你的 Scholar 主页 URL
+  googlescholar : "https://scholar.google.com/citations?user=FQUBnVQovvwC"  # <<< 加了引号，修正语法
   inspire-hep   :
   impactstory   :
   orcid         :
@@ -47,7 +46,7 @@ author:
 
   # Social
   artstation :
-  bluesky    :                        # 例如 "xinzheng.bsky.social"
+  bluesky    :
   facebook   :
   flickr     :
   foursquare :
@@ -56,7 +55,7 @@ author:
   keybase    :
   instagram  :
   lastfm     :
-  linkedin   :                        # 例如 "xin-zheng-<id>"
+  linkedin   :
   mastodon   :
   medium     :
   pinterest  :
@@ -64,16 +63,16 @@ author:
   steam      :
   telegram   :
   tumblr     :
-  twitter    :                        # X/Twitter 用户名
+  twitter    :
   vine       :
   weibo      :
   wikipedia  :
   xing       :
   youtube    :
-  bilibili     : https://space.bilibili.com/174805325?spm_id_from=333.1007.0.0
+  bilibili   : "https://space.bilibili.com/174805325?spm_id_from=333.1007.0.0"
 
 # =========================
-# Publication Categories
+# Publication Categories (保留原键，不影响你隐藏页面)
 # =========================
 publication_category:
   books:
@@ -144,7 +143,7 @@ og_description    :
 social:
   type            : Person
   name            : "Xin Zheng"
-  links           : []   # 可以填社交链接数组
+  links           : []
 
 # =========================
 # Analytics
@@ -213,24 +212,24 @@ kramdown:
   enable_coderay   : false
 
 # =========================
-# Collections
+# Collections（仅把不需要的集合设为 output:false；最小改动）
 # =========================
 collections:
   teaching:
-    output    : true
+    output    : false   # <<< 关闭生成
     permalink : /:collection/:path/
   publications:
-    output    : true
+    output    : false   # <<< 关闭生成
     permalink : /:collection/:path/
   portfolio:
-    output    : true
+    output    : false   # <<< 关闭生成
     permalink : /:collection/:path/
   talks:
-    output    : true
+    output    : false   # <<< 关闭生成
     permalink : /:collection/:path/
 
 # =========================
-# Defaults
+# Defaults（保留；不会生成已关闭集合的页面）
 # =========================
 defaults:
   - scope:
