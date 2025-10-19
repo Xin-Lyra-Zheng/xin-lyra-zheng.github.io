@@ -64,24 +64,3 @@ Publications
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
-
-
-Talks
-======
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
-
-
-Teaching
-======
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-
-Service and Leadership
-======
-* Research collaborator in interpretable ML and alignment projects across Duke and UNC.  
-* Mentor for junior students interested in computational social science and ML ethics.
-* Active member of Duke MSEC research community and Prof. Guo’s lab.
