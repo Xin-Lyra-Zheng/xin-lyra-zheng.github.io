@@ -16,7 +16,7 @@ repository      : "xin-lyra-zheng/xin-lyra-zheng.github.io"
 # =========================
 author:
   # Bio
-  avatar     : "/images/profile.png"        # 放在 /images/ 或根目录，保持路径一致
+  avatar     : "/images/xin-profile.png"        # 放在 /images/ 或根目录，保持路径一致
   name       : "Xin Zheng"
   pronouns   :                      # 留空，若需要再填，例如 "she/her" 或 "he/him"
   bio        : "M.S. in Economics & Computation @ Duke University. Research: Interpretable ML, Hypergraph Learning, Decision Trees + GAMs, AI alignment/fairness."
