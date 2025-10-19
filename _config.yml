@@ -28,7 +28,7 @@ author:
   # Academic IDs (留空表示不显示)
   academia      :
   arxiv         :
-  googlescholar :                    # 建议填你的 Scholar 主页 URL
+  googlescholar :https://scholar.google.com/citations?hl=zh-CN&user=FQUBnVQovvwC                   # 建议填你的 Scholar 主页 URL
   inspire-hep   :
   impactstory   :
   orcid         :
@@ -70,7 +70,7 @@ author:
   wikipedia  :
   xing       :
   youtube    :
-  zhihu      :
+  bilibili     : https://space.bilibili.com/174805325?spm_id_from=333.1007.0.0
 
 # =========================
 # Publication Categories
